@@ -1,0 +1,49 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: chocolate;
+    justify-content: space-around;
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: magenta;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#score{
+    display: block;
+    height: 40px;
+    font-size: 30px;
+
+}
